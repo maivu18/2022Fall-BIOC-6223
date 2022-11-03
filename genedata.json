@@ -1,0 +1,15 @@
+{
+	"gene data": [{
+		"gene name": "BRCA1",
+		"length in bp": 271,
+		"accesion number": "MF945608"
+	}, {
+		"gene name": "HBB",
+		"length in bp": 441,
+		"accession number": "CR541913"
+	}, {
+		"gene name": "alpha-1 antitrypsin",
+		"length in bp": 89,
+		"accession number": "A20467"
+	}]
+}
