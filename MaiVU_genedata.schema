@@ -1,0 +1,38 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://raw.githubusercontent.com/GWU-Bioinformatics/2022Fall-BIOC-6223/Mai/MaiVu_genedata.json",
+  "type": "object",
+  "tile": "Gene data",
+  "description": "This is the Schema file for Mai's BIOC6223 homework 1",
+  "required": [
+    "gene data"
+  ],
+  "properties": {
+    "gene data": {
+      "type": "array",
+      "description": "Contain all the information of the gene",
+      "items": {
+        "type": "object",
+        "required": [
+          "gene name",
+          "length in bp",
+          "accession number"
+        ],
+        "properties": {
+          "gene name": {
+            "description": "name of the gene",
+            "type": "string"
+          },
+          "accession number": {
+            "description": "the identifier that is a sign uniquely to each gene",
+            "type": "string"
+          },
+          "length in bp": {
+            "description": "length of the gene in bp",
+            "type": "integer"
+          }
+        }
+      }
+    }
+  }
+}
